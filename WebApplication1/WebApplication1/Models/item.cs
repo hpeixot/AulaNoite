@@ -9,6 +9,6 @@
         public int Raridade { get; set; }
         //Relacionamento do Item --> TipoItem
         public int TipoItemID { get; set; }
-        public virtual TipoItem :_TipoItem { get; set; }
+        public virtual TipoItem _TipoItem { get; set; }
     }
 }

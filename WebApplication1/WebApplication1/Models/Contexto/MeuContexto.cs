@@ -8,5 +8,9 @@ namespace WebApplication1.Models.Contexto
         {
 
         }
+
+        public System.Data.Entity.DbSet<WebApplication1.Models.TipoItem> TipoItems { get; set; }
+
+        public System.Data.Entity.DbSet<WebApplication1.Models.item> items { get; set; }
     }
 }

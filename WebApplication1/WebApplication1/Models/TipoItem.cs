@@ -2,6 +2,8 @@
 {
     public class TipoItem
     {
-        public int ItemID { get; set; }
+        public int TipoItemID { get; set; }
+        public string Nome { get; set; }
+
     }
 }
